@@ -1,0 +1,33 @@
+{
+  "conversationToken": "[]",
+  "expectUserResponse": true,
+  "expectedInputs": [
+    {
+      "inputPrompt": {
+        "richInitialPrompt": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Hybrid has cordova"
+              }
+            }
+          ]
+        }
+      },
+      "possibleIntents": [
+        {
+          "intent": "assistant.intent.action.TEXT"
+        }
+      ]
+    }
+  ],
+  "responseMetadata": {
+    "status": {
+      "code": 14
+    },
+    "queryMatchInfo": {
+      "queryMatched": true,
+      "intent": "c9f43242-97b7-4411-9761-1332a35b5e19"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "user": {
+    "userId": "ABwppHFcXiVnXL8yc2FHDGT12LHOspHHEmycfbytjDlzNfFNj3VpLzOQPhCdHkhWL_AKX2M_7zSHrCs7eCuHkg_70A",
+    "locale": "en-US",
+    "lastSeen": "2018-02-23T14:03:17Z"
+  },
+  "conversation": {
+    "conversationId": "1519926218587",
+    "type": "ACTIVE",
+    "conversationToken": "[]"
+  },
+  "inputs": [
+    {
+      "intent": "actions.intent.TEXT",
+      "rawInputs": [
+        {
+          "inputType": "VOICE",
+          "query": "Hi Mobile Garage"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "text",
+          "rawText": "Hi Mobile Garage",
+          "textValue": "Hi Mobile Garage"
+        }
+      ]
+    }
+  ],
+  "surface": {
+    "capabilities": [
+      {
+        "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+      },
+      {
+        "name": "actions.capability.WEB_BROWSER"
+      },
+      {
+        "name": "actions.capability.AUDIO_OUTPUT"
+      },
+      {
+        "name": "actions.capability.SCREEN_OUTPUT"
+      }
+    ]
+  },
+  "isInSandbox": true,
+  "availableSurfaces": [
+    {
+      "capabilities": [
+        {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        },
+        {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }
+      ]
+    }
+  ]
+}
